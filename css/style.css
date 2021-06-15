@@ -37,13 +37,13 @@ main sction:nth-child(2){
     gap: 30px;
 }
 
-.tow-rows{
+section:nth-of-type(3)
+{
     display: grid;
-    grid-template-columns: 1fr , 1fr;
-    gap: 30px;
-    margin-bottom: 30px;
-    margin-block-start: 30px;
+    gap: 30;
+    grid-template-columns: 1fr 1fr;
 }
+
  main secction:nth-child() p{
      line-height: 1.5;
      text-indent: 30px;
